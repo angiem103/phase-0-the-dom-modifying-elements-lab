@@ -1,6 +1,5 @@
-main.remove()
+main.remove(main)
 
 const newHeader = document.createElement('h1')
-document.body.appendChild(newHeader)
-newHeader.id='victory'
-newHeader.innerHTML = "<h1>YOUR-NAME is the champion</h1> "
+newHeader.setAttribute('id','victory')
+newHeader.innerHTML ='Angie is the champion'
